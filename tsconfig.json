@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "paths": {
+      "Componens/*": [
+        "./src/components/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ]
+  },
+  "exclude": [
+    "./node_modules",
+    "./*/node_modules",
+    "./**/*/node_modules",
+    "./*/src/test/__mocks__"
+  ],
+  "include": [
+    "./src"
+  ],
+}
