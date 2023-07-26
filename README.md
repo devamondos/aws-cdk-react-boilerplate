@@ -1,6 +1,6 @@
 # AWS CDK React 18 Boilerplate
 
-A personal project, and work in progress, to enable quick global deployment of websites. This boilerplate deploys a React website on AWS using AWS CDK. Servies such as API GW, S3, Lambdas, Cognito, and more will be used to deliver the site
+A personal project, and work in progress, to enable quick global deployment of websites. This boilerplate deploys a React website on AWS using AWS CDK. Services such as API GW, S3, Lambdas, Cognito, and more will be used to deliver the site
 
 ## TODO
 
